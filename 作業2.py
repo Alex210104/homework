@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 27 16:14:21 2023
+Created on Wed Mar 29 22:57:15 2023
 
 @author: User
 """
-'''
-for i in range(1,2):
-    j = i ++ 2
-    for j in range(1,6):
-        
-        print(i,end="\n")
-'''
-for i in range(1,6):
-    print("1" * (2*i - 1))
+
+num_list = []
+for i in range(6):
+    num = int(input("請輸入數字:"))
+    num_list.append(num)
     
+num_list.sort(reverse = True)
+print("由小至大排列:",num_list)
+
+
